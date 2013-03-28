@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
 
 apt-get update
-apt-get install -y nginx
-apt-get install -y build-essential python-software-properties python g++ make
-apt-get install -y ruby1.9.3
-apt-get install -y git
+apt-get install -y nginx build-essential python-software-properties python g++ make ruby1.9.3 git
 gem install sass
 add-apt-repository ppa:chris-lea/node.js
 apt-get update
