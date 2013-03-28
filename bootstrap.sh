@@ -4,6 +4,7 @@ apt-get update
 apt-get install -y nginx
 apt-get install -y build-essential python-software-properties python g++ make
 apt-get install -y ruby1.9.3
+apt-get install -y git
 gem install sass
 add-apt-repository ppa:chris-lea/node.js
 apt-get update
@@ -22,3 +23,4 @@ npm install grunt-cli -g
 npm install bower -g
 bower install
 grunt build
+grunt watch
